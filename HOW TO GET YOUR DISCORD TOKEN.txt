@@ -1,0 +1,7 @@
+1: Log in: Go to the Discord Web App in your browser and sign in to your main discord account that you want to use
+2: Open Developer Tools: Press F12 (or Ctrl + Shift + I on Windows / Cmd + Option + I on Mac). A panel with lots of code will pop up on the side or bottom of your screen.
+3: Open the Console: Look at the top tabs of that new panel and click on Console.
+4: Paste the Code: Paste the exact code block below into the Console and press Enter:
+4.1: PASTE THIS: window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => { for (const m of Object.keys(req.c).map((x) => req.c[x])) { if (m?.exports?.default?.getToken !== undefined) { console.log("%cYOUR TOKEN:", "font-size: 20px; color: green;", m.exports.default.getToken()); } } }]);
+5: Copy your Token: Your token will immediately print in green text right below the code. Carefully highlight and copy it. Close the developer panel when you are done.
+6: Paste it into the config file "com.poopoovr.discordnotifs.cfg"
