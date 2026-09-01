@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <GameAssemblyPath>C:\Users\YOURUSERNAME\path\to\Gorilla Tag\Gorilla Tag_Data\Managed</GameAssemblyPath>
+    <BepInExAssemblyPath>C:\Users\YOURUSERNAME\path\to\Gorilla Tag\BepInEx\core</BepInExAssemblyPath>
+    <PluginsPath>C:\Users\YOURUSERNAME\path\to\Gorilla Tag\BepInEx\plugins</PluginsPath>
+  </PropertyGroup>
+</Project>
